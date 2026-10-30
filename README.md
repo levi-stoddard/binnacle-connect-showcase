@@ -60,7 +60,7 @@ Two pieces of hardware are in build: an ESP32 bridge that reads the engine's ana
 
 More detail: [ARCHITECTURE.md](ARCHITECTURE.md) · [Interview walkthrough](docs/interview-walkthrough.md)
 
-**Open-source spin-off:** I extracted and generalized Connect's device-pairing code into [flutter_secure_pairing](https://github.com/levi-stoddard/flutter_secure_pairing), an MIT-licensed Flutter package with on-device keys, a transport-agnostic pairing flow, a threat model and CI.
+**Spin-off package:** I extracted and generalized Connect's device-pairing code into [flutter_secure_pairing](https://github.com/levi-stoddard/flutter_secure_pairing), a Flutter package with on-device keys, a transport-agnostic pairing flow, a threat model and CI.
 
 ## Want to see it live?
 
@@ -68,4 +68,4 @@ I'm happy to screen-share the running app and the test suite on request. Reach m
 
 ---
 
-Documentation and media © 2026 Levi Stoddard, licensed CC BY-NC-ND 4.0 (see [LICENSE](LICENSE)). Binnacle, Binnacle Connect and the Binnacle logo are trademarks of Binnacle Marine Systems.
+Documentation and media © 2026 Levi Stoddard. All rights reserved; published for portfolio review only, and any other use needs my written permission (see [LICENSE](LICENSE)). Binnacle, Binnacle Connect and the Binnacle logo are trademarks of Binnacle Marine Systems.
