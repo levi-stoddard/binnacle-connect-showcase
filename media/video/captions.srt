@@ -1,0 +1,53 @@
+1
+00:00:00,400 --> 00:00:09,800
+Binnacle Connect: a companion app for tow-sport boats.
+Pairing · live telemetry and video · recorded clips
+
+2
+00:00:10,200 --> 00:00:14,600
+The QR label on the device carries no secret.
+Pairing also needs a window opened on the unit.
+
+3
+00:00:14,600 --> 00:00:19,000
+The key is generated on the phone. The private half
+stays in secure storage; only the public key is sent.
+
+4
+00:00:19,400 --> 00:00:28,000
+A unit that reports no previous owner gets an explicit
+warning instead of being claimed silently.
+
+5
+00:00:28,000 --> 00:00:34,800
+The warning has to be ticked before you can continue.
+
+6
+00:00:35,200 --> 00:00:43,400
+Device state, commands and acknowledgments travel on
+an authenticated WebSocket control channel.
+
+7
+00:00:43,400 --> 00:00:51,600
+Video and HUD telemetry run on a separate WebRTC channel.
+A stalled stream can never delay a safety acknowledgment.
+
+8
+00:00:51,600 --> 00:00:59,800
+The device is the source of truth: a command stays
+pending until the device sends back new state.
+
+9
+00:01:00,200 --> 00:01:09,800
+Clip library: highlights, snapshots and safety clips,
+with filters and favourites.
+
+10
+00:01:09,800 --> 00:01:19,800
+Saved highlights play back in the app.
+Demo media is labelled as demo.
+
+11
+00:01:20,400 --> 00:01:29,600
+30 test suites in the app, plus database tests.
+CI runs the checks on every change.

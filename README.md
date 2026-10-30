@@ -6,6 +6,8 @@ Binnacle is a marine telemetry and edge-AI platform for tow-sport boats. **Conne
 
 *Demo mode on an Android emulator. The camera feed is a synthetic recording bundled with the app; no hardware is connected.*
 
+**[Watch the 90-second demo](media/video/binnacle-connect-demo-90s.mp4)**: pairing, the live view and the clip library, with captions ([captions.srt](media/video/captions.srt)).
+
 ## What's in the app
 
 - **Pairing.** Scan the QR label on the Core device (or type its code), and the phone generates its own device key, keeps the private half in platform secure storage, and sends only the public key with its registration request. The QR label carries no secret, and pairing only succeeds while a pairing window is open on the device itself. A unit that reports no previous owner triggers an explicit "this unit had no previous owner" warning instead of being claimed silently.
